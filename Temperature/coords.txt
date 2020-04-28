@@ -1,0 +1,51 @@
+Elles sont censé avoir la même taille, du coup je vais essayer de décaler une ligne vers le bas, de la hauteur d'une ligne, du coup elle sera collé !
+
+h=8 604,800359
+
+
+ligne 2 : size 1, 1 band, 8bit, WGS 1984
+ligne 1 : same
+ligne 3 : same
+ligne 4 : same
+ligne 5 : same
+ligne 6 : same
+
+
+
+#We need to rescale the map so the temperature range go from -130°C to +25°C
+print(temperature.maximum,temperature.minimum)
+
+#From -130°C to +25°C there are 155°C, so I need to stretch all the values so they get a range of 135, and then move them
+#The ratio of 155 by 255 is 0,6079
+#Then I need to center the values around 52,5 which is the middle(so substract 77,5 to everything), so :
+
+temperature_normalized = (temperature*0.6079) - 52.5
+temperature_normalized.save("C:/Users/yanis/Desktop/EPF 2nd/RUDN2/Mapping project/MappingMars/Temperature" + "temperature_normalized.tif")
+#print(temperature_normalized.maximum,temperature_normalized.minimum)
+
+
+
+-----------------------------POUR LES QUARTS DE CLIP-----------------------
+NORD EST: 
+top : -19 845 084,258314
+bot : -245,976248 
+left : -391,595755
+right : 19 844 938,638807
+
+SUD EST: 
+top : -245,976248
+bot : -19 845 084,258314
+left : -391,595755
+right : 19 844 938,638807
+
+SUD OUEST
+top : -245,976248
+bot : -19 845 084,258314
+left : -19 844 938,638807
+right : -391,595755
+
+NORD OUEST
+top : 19 845 084,258314
+bot : -245,976248
+left : -19 844 938,638807
+right : -391,595755

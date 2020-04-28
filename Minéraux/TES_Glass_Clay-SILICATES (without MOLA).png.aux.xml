@@ -1,0 +1,38 @@
+<PAMDataset>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+  </Metadata>
+  <Metadata domain="xml:ESRI" format="xml">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/2.5.0">
+      <PolynomialOrder>1</PolynomialOrder>
+      <SpatialReference xsi:type="typens:UnknownCoordinateSystem">
+        <XOrigin>-2880.5</XOrigin>
+        <YOrigin>-2159.5</YOrigin>
+        <XYScale>1250999896491.8042</XYScale>
+        <XYTolerance>1.5987211554602258e-12</XYTolerance>
+        <HighPrecision>true</HighPrecision>
+      </SpatialReference>
+      <SourceGCPs xsi:type="typens:ArrayOfDouble">
+        <Double>1438.6263284059348</Double>
+        <Double>-701.6433597789154</Double>
+        <Double>1435.9583049564756</Double>
+        <Double>-86.331621933037496</Double>
+        <Double>0.084253372088195277</Double>
+        <Double>-701.97101178148057</Double>
+        <Double>60.709098201299028</Double>
+        <Double>-78.564715319328172</Double>
+      </SourceGCPs>
+      <TargetGCPs xsi:type="typens:ArrayOfDouble">
+        <Double>19979008.286426641</Double>
+        <Double>-23534462.642694935</Double>
+        <Double>19885648.434620898</Double>
+        <Double>18870360.046233561</Double>
+        <Double>-19899240.148071703</Double>
+        <Double>-23021867.044185556</Double>
+        <Double>-18248923.381921247</Double>
+        <Double>20853136.090310439</Double>
+      </TargetGCPs>
+      <Name />
+    </GeodataXform>
+  </Metadata>
+</PAMDataset>
