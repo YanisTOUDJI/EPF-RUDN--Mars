@@ -15,10 +15,10 @@ You can browse into the "Presentation" file and open the "Assignment 30-04" in o
 
 On the following screenshot you can see what this is all about: 
 
-PUT A SCREENSHOT
 
+![](Presentations/gitscreen.PNG)
 
-We have basically find some life nests and printed them on the surface of Mars so we can localize them. 
+We have basically find some LIFENESTS (in green) and printed them on the surface of Mars so we can localize them. 
 
 So this project might be usefull for searchers, future engineers or scientist looking for life on Mars or whoever wants an approach to find life on Mars. It's also great because it allows the users to put the parameters of its research. Let's say you track a bacteria which lives under  [-20°C;+30°C], you could parameter this range so the lifenest associated will be for this temeprature only !
 
