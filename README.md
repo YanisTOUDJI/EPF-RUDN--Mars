@@ -24,6 +24,8 @@ So this project might be usefull for searchers, future engineers or scientist lo
 
 All the datas came from the THEMIS mission, which the following website reported the datas: http://mars.asu.edu/data/
 
+/!\ ALL THE DATAS AVAILABLE ON THIS REPOSITORY ARE IN LOW RESOLUTION DUE TO GITHUB SIZE RESTRICTION, TO GET FULL RESOLUTION AND WAY BETTER RESULTS CONTACT ME (see bellow) /!\
+
 To get started with the project you'll need:
 1- to have ArcGIS already installed in your computer
 2- to download all the files in my repository in your computer, under a single file idealy named "MappingMars"
